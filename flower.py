@@ -10,7 +10,7 @@ brad.speed(0)
 brad.color("cyan")
 brad.shape("turtle")
 def square():
-	for i in range(0,4,1):
+	for i in range(0,2,1):
 		brad.circle(100,60)
 		brad.left(120)
 def circle():
