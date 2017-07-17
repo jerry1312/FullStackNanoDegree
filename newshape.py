@@ -4,9 +4,11 @@ window=turtle.Screen()
 
 window.bgcolor("gray")
 
+
 brad=turtle.Turtle()
 brad.speed(0)
-
+brad.color("cyan")
+brad.shape("turtle")
 def square():
 	for i in range(0,4,1):
 		brad.forward(100)
